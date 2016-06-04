@@ -12,5 +12,19 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    // do testing stuff in here?
+    return view('index');
 });
+
+/*
+ * The Routes for all our Blog pages.
+ */
+Route::get('/blog', 'BlogController@index');
+Route::get('/blog/{slug}', 'BlogController@single');
+
+/*
+ * Our Static pages
+ */
+Route::get('/about', 'BlogController@about');
+Route::get('/contact', 'BlogController@contact');
+
