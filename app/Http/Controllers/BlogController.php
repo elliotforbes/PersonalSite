@@ -12,22 +12,22 @@ class BlogController extends Controller
     
     public function index()
     {
-        return "index";
+        return view('index');
     }
     
     public function single()
     {
-        return "single";
+        return view('single');
     }
     
     public function about()
     {
-        return "about";
+        return view('about');
     }
     
     public function contact()
     {
-        return "contact";
+        return view('contact');
     }
     
 }

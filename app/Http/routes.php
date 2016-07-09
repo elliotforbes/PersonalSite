@@ -11,16 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    // do testing stuff in here?
-    return view('index');
-});
-
-/*
- * The Routes for all our Blog pages.
- */
-Route::get('/blog', 'BlogController@index');
-Route::get('/blog/{slug}', 'BlogController@single');
+Route::get('/', 'BlogController@index');
 
 /*
  * Our Static pages
@@ -28,3 +19,9 @@ Route::get('/blog/{slug}', 'BlogController@single');
 Route::get('/about', 'BlogController@about');
 Route::get('/contact', 'BlogController@contact');
 
+/*
+ * The Routes for all our Blog pages.
+ * Note that this is placed after our /about and /contact
+ * routes to avoid conflict
+ */
+Route::get('/{slug}', 'BlogController@single');
