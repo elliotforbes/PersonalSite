@@ -104,7 +104,7 @@
     <div class="container">
         <h2>About Me</h2>
 
-        <p>I've been working as a Software Engineer at JPMorgan for the since I graduated with an Upper Second Class Honours in Computer Science. </p>
+        <p>I've been working as a Software Engineer at JPMorgan since I graduated with an Upper Second Class Honours in Computer Science. </p>
     </div>
 </div>
 
