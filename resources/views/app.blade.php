@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="{{ asset('/css/reset.css') }}"> <!-- CSS reset -->
 	<link rel="stylesheet" href="{{ asset('/css/style.css') }}"> <!-- Resource style -->
 	
-	<title>Responsive Vertical Timeline</title>
+	<title>Elliot Forbes | Software Engineer</title>
 </head>
 <body>
 	
