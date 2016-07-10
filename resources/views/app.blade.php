@@ -13,10 +13,8 @@
 	<title>Responsive Vertical Timeline</title>
 </head>
 <body>
-	<div class="background-wrapper">
-		@yield('content')
-	</div>
 	
+	@yield('content')
 
 </body>
 </html>
