@@ -7,7 +7,6 @@
         
             <div class="intro">
                 <h2>Elliot <span class="blue">Forbes</span></h2>
-                <h4>Web Designer | Software Engineer | Computer Scientist</h4>
             </div>
             
             <div class="col-lg-4 col-sm-12">
@@ -106,14 +105,13 @@
         <h2>About Me</h2>
 
         <p>I've been working as a Software Engineer at JPMorgan for the since I graduated with an Upper Second Class Honours in Computer Science. </p>
-    
-        <p>I mainly work i</p>
     </div>
 </div>
 
 <div class="blue-container">
     <div class="container">
-        <h2>My Projects</h2>
+        <h2>My Projects - Coming Soon</h2>
+
     </div>
 </div>
 
