@@ -119,14 +119,14 @@ h2 {
 
 .info-box:hover > .info-content {
   height: 140px;
-  animation: expand 1s linear; }
+  animation: expand 0.5s linear; }
   .info-box:hover > .info-content p {
     overflow: hidden;
     visibility: visible; }
 
 .info-box:hover {
   margin-top: -75px;
-  animation: moveup 1s linear; }
+  animation: moveup 0.5s linear; }
 
 .info-content-inner {
   padding: 20px;
