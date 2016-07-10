@@ -40,12 +40,29 @@ body{
   width: 100%;
   margin: 0;
   padding: 0;
-  background: url("../img/sphere.jpg") no-repeat center center fixed; 
+  background: url("../img/bg.png") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   height: auto;
+
+  @include breakpoint(mobileonly) {
+    height: 1200px;
+  }
+  @include breakpoint(phablet) {
+    height: 1200px;
+  }
+  @include breakpoint(tablet) {
+    height: 1300px;
+  }
+  @include breakpoint(laptop) {
+    margin-bottom: 0;
+
+    height: 700px;
+  }
+
+
 }
 
 h2{
